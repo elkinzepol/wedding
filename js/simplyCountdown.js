@@ -122,10 +122,10 @@
                 minutes: 0,
                 seconds: 0,
                 words: {
-                    days: 'day',
-                    hours: 'hour',
-                    minutes: 'minute',
-                    seconds: 'second',
+                    days: 'Dia',
+                    hours: 'Hora',
+                    minutes: 'Minuto',
+                    seconds: 'Segundo',
                     pluralLetter: 's'
                 },
                 plural: true,
@@ -140,6 +140,7 @@
                 amountClass: 'simply-amount',
                 wordClass: 'simply-word',
                 zeroPad: false
+                // countUp: true
             }, args),
             interval,
             targetDate,
